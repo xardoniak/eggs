@@ -6,7 +6,7 @@
     },
     "exported_at": "2021-02-16T10:20:13+11:00",
     "name": "Insurgency: Sandstorm",
-    "author": "playstrikemc@outlook.com",
+    "author": "brycea@terrahost.cloud",
     "description": "Insurgency: Sandstorm is a team-based, tactical FPS based on lethal close quarters combat and objective-oriented multiplayer gameplay. Experience the intensity of modern combat where skill is rewarded, and teamwork wins the fight.",
     "features": null,
     "images": [
@@ -53,7 +53,7 @@
             "default_value": "27131",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|numeric"
+            "rules": "nullable|numeric"
         },
         {
             "name": "Default Map",
@@ -98,7 +98,7 @@
             "default_value": "",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|numeric"
+            "rules": "nullable|numeric"
         },
         {
             "name": "RCon Password",
@@ -107,7 +107,7 @@
             "default_value": "",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string"
+            "rules": "nullable|string"
         },
         {
             "name": "Game Stats Token",
@@ -125,7 +125,7 @@
             "default_value": "",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "string|max:64"
+            "rules": "nullable|max:64"
         }
     ]
 }
